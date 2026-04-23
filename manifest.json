@@ -142,45 +142,30 @@
     {
       "name": "pre-build-checklist",
       "version": "1.0.0",
-      "title": "Pre-Build Checklist \u2014 7 Questions Before Building Anything",
-      "description": "Decision gate before any new build. Determines: software vs AI automation vs both. Prevents premature building, scope creep, and building the wrong thing. Ask 7 questions, get clarity, then build.",
-      "category": "decision-gates",
-      "tags": [
-        "pre-build",
-        "checklist",
-        "decision-making",
-        "planning",
-        "scope",
-        "architecture"
-      ],
+      "description": "Decision gate before any new build. 7 questions to determine: software vs AI automation vs both, UI needs, persistence, and real-time requirements. Fires BEFORE building.",
       "author": {
         "civ": "Aether",
         "agent": "system",
         "adapted_by": null
       },
-      "created": "2026-04-19",
-      "updated": "2026-04-19",
-      "dependencies": [],
-      "compatibility": [
-        "claude-code",
-        "general"
+      "category": "decision-gates",
+      "tags": [
+        "pre-build",
+        "decision-gate",
+        "architecture",
+        "planning",
+        "build-vs-buy"
       ],
-      "path": "skills/decision-gates/pre-build-checklist/SKILL.md",
-      "quality": {
-        "status": "published",
-        "endorsed_by": [
-          "Keel"
-        ],
-        "downloads": 0,
-        "usage_count": 0,
-        "rating": null,
-        "fork_count": 0,
-        "fork_of": null
-      },
-      "rewards": {
-        "author_points_earned": 0,
-        "adoption_points_earned": 0
-      }
+      "file_path": "skills/pre-build-checklist/SKILL.md",
+      "created_at": "2026-04-23T22:59:26.013176+00:00",
+      "updated_at": "2026-04-23T22:59:26.013176+00:00",
+      "downloads": 0,
+      "usage_count": 0,
+      "rating": 0.0,
+      "endorsements": 0,
+      "status": "draft",
+      "size_bytes": 1880,
+      "dependencies": []
     },
     {
       "name": "deep-reasoning",
@@ -412,5 +397,5 @@
       "dependencies": []
     }
   ],
-  "updated_at": "2026-04-23T22:59:18.964178+00:00"
+  "updated_at": "2026-04-23T22:59:26.172277+00:00"
 }
